@@ -17,7 +17,6 @@
 
 """Application support for chain processing."""
 
-from mailman import public
 from mailman.chains.base import Chain, TerminalChainBase
 from mailman.config import config
 from mailman.interfaces.chain import IChain, LinkAction

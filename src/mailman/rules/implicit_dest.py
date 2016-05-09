@@ -21,7 +21,6 @@ import re
 
 from contextlib import suppress
 from email.utils import getaddresses
-from mailman import public
 from mailman.core.i18n import _
 from mailman.interfaces.mailinglist import IAcceptableAliasSet
 from mailman.interfaces.rules import IRule

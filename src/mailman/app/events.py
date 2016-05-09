@@ -17,7 +17,6 @@
 
 """Global events."""
 
-from mailman import public
 from mailman.app import (
     domain, membership, moderator, registrar, subscriptions)
 from mailman.core import i18n, switchboard

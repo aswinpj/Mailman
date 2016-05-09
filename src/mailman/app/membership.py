@@ -18,7 +18,6 @@
 """Application support for membership management."""
 
 from email.utils import formataddr
-from mailman import public
 from mailman.app.notifications import (
     send_admin_subscription_notice, send_goodbye_message,
     send_welcome_message)

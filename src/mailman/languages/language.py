@@ -18,7 +18,6 @@
 """The representation of a language."""
 
 
-from mailman import public
 from mailman.interfaces.languages import ILanguage
 from zope.interface import implementer
 

@@ -17,7 +17,6 @@
 
 """REST for domains."""
 
-from mailman import public
 from mailman.interfaces.domain import (
     BadDomainSpecificationError, IDomainManager)
 from mailman.rest.helpers import (

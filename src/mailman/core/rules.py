@@ -17,7 +17,6 @@
 
 """Various rule helpers"""
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.rules import IRule
 from mailman.utilities.modules import find_components

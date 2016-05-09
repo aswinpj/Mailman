@@ -21,7 +21,6 @@ import logging
 
 from lazr.smtptest.controller import QueueController
 from lazr.smtptest.server import Channel, QueueServer
-from mailman import public
 from mailman.interfaces.mta import IMailTransportAgentLifecycle
 from queue import Empty, Queue
 from zope.interface import implementer

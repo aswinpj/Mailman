@@ -17,7 +17,6 @@
 
 """A mailing list manager."""
 
-from mailman import public
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.address import InvalidEmailAddressError
 from mailman.interfaces.listmanager import (

@@ -22,7 +22,6 @@ posted to the list membership.  Anything else that needs to go out to some
 recipient should just be placed in the out queue directly.
 """
 
-from mailman import public
 from mailman.config import config
 from mailman.core.i18n import _
 from mailman.interfaces.handler import IHandler

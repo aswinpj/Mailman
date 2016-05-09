@@ -18,7 +18,6 @@
 """REST for mailing lists."""
 
 from lazr.config import as_boolean
-from mailman import public
 from mailman.app.digests import (
     bump_digest_number_and_volume, maybe_send_digest_now)
 from mailman.app.lifecycle import create_list, remove_list

@@ -17,7 +17,6 @@
 
 """PostgreSQL database support."""
 
-from mailman import public
 from mailman.database.base import SABaseDatabase
 from mailman.database.model import Model
 from sqlalchemy import Integer

@@ -21,7 +21,6 @@ import logging
 
 from email.utils import formataddr
 from lazr.config import as_boolean
-from mailman import public
 from mailman.config import config
 from mailman.core.i18n import _
 from mailman.email.message import OwnerNotification, UserNotification

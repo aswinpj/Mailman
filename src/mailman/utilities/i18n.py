@@ -21,7 +21,6 @@ import os
 import sys
 
 from itertools import product
-from mailman import public
 from mailman.config import config
 from mailman.core.constants import system_preferences
 from mailman.core.i18n import _

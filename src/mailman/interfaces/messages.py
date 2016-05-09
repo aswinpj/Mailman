@@ -17,7 +17,6 @@
 
 """The message storage service."""
 
-from mailman import public
 from zope.interface import Attribute, Interface
 
 

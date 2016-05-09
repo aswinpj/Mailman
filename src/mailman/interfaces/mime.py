@@ -18,7 +18,6 @@
 """MIME content filtering."""
 
 from enum import Enum
-from mailman import public
 from zope.interface import Attribute, Interface
 
 

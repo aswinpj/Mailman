@@ -17,7 +17,6 @@
 
 """Interfaces for managing languages."""
 
-from mailman import public
 from zope.interface import Attribute, Interface
 
 

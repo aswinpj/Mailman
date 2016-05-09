@@ -19,7 +19,6 @@
 
 import os
 
-from mailman import public
 from mailman.config import config
 from mailman.database.model import Model
 from mailman.database.transaction import dbconnection

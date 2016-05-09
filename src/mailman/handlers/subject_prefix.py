@@ -21,7 +21,6 @@ import re
 
 from contextlib import suppress
 from email.header import Header, decode_header, make_header
-from mailman import public
 from mailman.core.i18n import _
 from mailman.interfaces.handler import IHandler
 from zope.interface import implementer

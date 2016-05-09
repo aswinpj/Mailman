@@ -17,7 +17,6 @@
 
 """Utility for generating all the aliases of a mailing list."""
 
-from mailman import public
 from mailman.interfaces.mta import IMailTransportAgentAliases
 from zope.interface import implementer
 

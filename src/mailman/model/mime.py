@@ -17,7 +17,6 @@
 
 """The content filter."""
 
-from mailman import public
 from mailman.database.model import Model
 from mailman.database.types import Enum
 from mailman.interfaces.mime import FilterType, IContentFilter

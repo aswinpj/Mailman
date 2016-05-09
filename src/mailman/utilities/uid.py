@@ -29,7 +29,6 @@ import hashlib
 
 from contextlib import suppress
 from flufl.lock import Lock
-from mailman import public
 from mailman.config import config
 from mailman.model.uid import UID
 from mailman.testing import layers

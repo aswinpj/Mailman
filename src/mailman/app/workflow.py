@@ -22,7 +22,6 @@ import json
 import logging
 
 from collections import deque
-from mailman import public
 from mailman.interfaces.workflow import IWorkflowStateManager
 from zope.component import getUtility
 

@@ -18,7 +18,6 @@
 """Some helpers for queries."""
 
 from collections.abc import Sequence
-from mailman import public
 
 
 @public

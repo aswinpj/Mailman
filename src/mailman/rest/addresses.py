@@ -17,7 +17,6 @@
 
 """REST for addresses."""
 
-from mailman import public
 from mailman.interfaces.address import (
     ExistingAddressError, InvalidEmailAddressError)
 from mailman.interfaces.usermanager import IUserManager

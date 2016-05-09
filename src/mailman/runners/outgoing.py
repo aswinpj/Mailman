@@ -22,7 +22,6 @@ import logging
 
 from datetime import datetime
 from lazr.config import as_boolean, as_timedelta
-from mailman import public
 from mailman.config import config
 from mailman.core.runner import Runner
 from mailman.interfaces.bounce import BounceContext, IBounceProcessor

@@ -19,7 +19,6 @@
 
 import re
 
-from mailman import public
 from mailman.interfaces.address import (
     IEmailValidator, InvalidEmailAddressError)
 from mailman.utilities.email import split_email

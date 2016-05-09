@@ -17,8 +17,6 @@
 
 """Application level auto-reply code."""
 
-from mailman import public
-
 
 @public
 def can_acknowledge(msg):

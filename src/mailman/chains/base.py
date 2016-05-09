@@ -17,7 +17,6 @@
 
 """Base class for terminal chains."""
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.chain import (
     IChain, IChainIterator, IChainLink, IMutableChain, LinkAction)

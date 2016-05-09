@@ -24,7 +24,6 @@ import codecs
 import logging
 import datetime
 
-from mailman import public
 from mailman.config import config
 from mailman.handlers.decorate import decorate, decorate_template
 from mailman.interfaces.action import Action, FilterAction

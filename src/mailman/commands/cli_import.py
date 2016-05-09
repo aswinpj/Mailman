@@ -21,7 +21,6 @@ import sys
 import pickle
 
 from contextlib import ExitStack, contextmanager
-from mailman import public
 from mailman.core.i18n import _
 from mailman.database.transaction import transactional
 from mailman.interfaces.command import ICLISubCommand

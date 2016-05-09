@@ -22,7 +22,6 @@ etc. than the IUserManager.  The latter does no validation, syntax checking,
 or confirmation, while this interface does.
 """
 
-from mailman import public
 from zope.interface import Interface
 
 

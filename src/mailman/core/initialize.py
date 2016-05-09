@@ -29,7 +29,6 @@ import sys
 import mailman.config.config
 import mailman.core.logging
 
-from mailman import public
 from mailman.interfaces.database import IDatabaseFactory
 from mailman.utilities.modules import call_name
 from pkg_resources import resource_string as resource_bytes

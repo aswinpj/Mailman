@@ -24,7 +24,6 @@ import logging
 import nntplib
 
 from io import StringIO
-from mailman import public
 from mailman.config import config
 from mailman.core.runner import Runner
 from mailman.interfaces.nntp import NewsgroupModeration

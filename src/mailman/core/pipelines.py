@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.app.bounces import bounce_message
 from mailman.config import config
 from mailman.core.i18n import _

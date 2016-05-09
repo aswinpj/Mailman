@@ -20,7 +20,6 @@
 import time
 import logging
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.mailinglist import Personalization
 from mailman.interfaces.mta import SomeRecipientsFailed

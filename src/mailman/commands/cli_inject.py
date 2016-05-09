@@ -19,7 +19,6 @@
 
 import sys
 
-from mailman import public
 from mailman.app.inject import inject_text
 from mailman.config import config
 from mailman.core.i18n import _

@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.app.subscriptions import SubscriptionWorkflow
 from mailman.core.i18n import _
 from mailman.database.transaction import flush

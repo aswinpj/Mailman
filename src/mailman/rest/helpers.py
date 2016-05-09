@@ -24,7 +24,6 @@ import hashlib
 from datetime import datetime, timedelta
 from enum import Enum
 from lazr.config import as_boolean
-from mailman import public
 from mailman.config import config
 from pprint import pformat
 

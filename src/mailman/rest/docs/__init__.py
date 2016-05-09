@@ -17,7 +17,6 @@
 
 """Doctest layer setup."""
 
-from mailman import public
 from mailman.testing.layers import RESTLayer
 
 

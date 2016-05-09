@@ -17,7 +17,6 @@
 
 """The email command 'help'."""
 
-from mailman import public
 from mailman.config import config
 from mailman.core.i18n import _
 from mailman.interfaces.command import ContinueProcessing, IEmailCommand

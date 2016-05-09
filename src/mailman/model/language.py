@@ -17,7 +17,6 @@
 
 """Model for languages."""
 
-from mailman import public
 from mailman.database.model import Model
 from mailman.interfaces.languages import ILanguage
 from sqlalchemy import Column, Integer, Unicode

@@ -21,7 +21,6 @@ import os
 import logging
 
 from flufl.lock import Lock
-from mailman import public
 from mailman.config import config
 from mailman.config.config import external_configuration
 from mailman.interfaces.listmanager import IListManager

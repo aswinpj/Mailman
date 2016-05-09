@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.chains.base import TerminalChainBase
 from mailman.config import config
 from mailman.core.i18n import _

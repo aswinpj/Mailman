@@ -20,7 +20,6 @@
 from contextlib import closing
 from flufl.i18n import registry
 from gettext import GNUTranslations, NullTranslations
-from mailman import public
 from pkg_resources import resource_stream
 
 

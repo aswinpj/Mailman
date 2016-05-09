@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.app.bounces import bounce_message
 from mailman.chains.base import TerminalChainBase
 from mailman.core.i18n import _

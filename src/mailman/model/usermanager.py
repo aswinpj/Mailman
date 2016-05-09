@@ -17,7 +17,6 @@
 
 """A user manager."""
 
-from mailman import public
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.address import ExistingAddressError
 from mailman.interfaces.usermanager import IUserManager

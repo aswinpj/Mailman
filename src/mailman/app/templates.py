@@ -18,7 +18,6 @@
 """Template loader."""
 
 from contextlib import closing
-from mailman import public
 from mailman.interfaces.languages import ILanguageManager
 from mailman.interfaces.listmanager import IListManager
 from mailman.interfaces.templates import ITemplateLoader

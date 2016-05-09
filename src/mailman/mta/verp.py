@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.config import config
 from mailman.mta.base import IndividualDelivery
 from mailman.utilities.email import split_email

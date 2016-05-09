@@ -34,7 +34,6 @@ made as to the disposition of the message.  `defer` is the default for
 members, while `hold` is the default for nonmembers.
 """
 
-from mailman import public
 from mailman.chains.base import Link
 from mailman.core.i18n import _
 from mailman.interfaces.action import Action

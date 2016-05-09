@@ -17,7 +17,6 @@
 
 """The Mailman version."""
 
-from mailman import public
 from mailman.interfaces.command import ICLISubCommand
 from mailman.version import MAILMAN_VERSION_FULL
 from zope.interface import implementer

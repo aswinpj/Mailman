@@ -17,7 +17,6 @@
 
 """Domains."""
 
-from mailman import public
 from mailman.database.model import Model
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.domain import (

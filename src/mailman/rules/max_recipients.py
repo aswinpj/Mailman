@@ -18,7 +18,6 @@
 """The maximum number of recipients rule."""
 
 from email.utils import getaddresses
-from mailman import public
 from mailman.core.i18n import _
 from mailman.interfaces.rules import IRule
 from zope.interface import implementer

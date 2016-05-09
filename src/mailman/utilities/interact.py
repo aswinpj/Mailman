@@ -22,7 +22,6 @@ import sys
 import code
 
 from contextlib import suppress
-from mailman import public
 
 
 DEFAULT_BANNER = object()

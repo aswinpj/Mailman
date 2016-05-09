@@ -17,7 +17,6 @@
 
 """Style manager."""
 
-from mailman import public
 from mailman.interfaces.configuration import ConfigurationUpdatedEvent
 from mailman.interfaces.styles import (
     DuplicateStyleError, IStyle, IStyleManager)

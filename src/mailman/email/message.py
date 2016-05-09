@@ -29,7 +29,6 @@ import email.utils
 
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
-from mailman import public
 from mailman.config import config
 
 
