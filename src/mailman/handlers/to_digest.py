@@ -19,7 +19,6 @@
 
 import os
 
-from mailman import public
 from mailman.app.digests import maybe_send_digest_now
 from mailman.core.i18n import _
 from mailman.interfaces.handler import IHandler

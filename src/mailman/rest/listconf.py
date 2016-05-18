@@ -18,7 +18,6 @@
 """Mailing list configuration via REST API."""
 
 from lazr.config import as_boolean, as_timedelta
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.action import Action
 from mailman.interfaces.archiver import ArchivePolicy

@@ -17,7 +17,6 @@
 
 """Configuration system interface."""
 
-from mailman import public
 from mailman.interfaces.errors import MailmanError
 from zope.interface import Interface
 

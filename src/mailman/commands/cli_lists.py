@@ -17,7 +17,6 @@
 
 """The 'lists' subcommand."""
 
-from mailman import public
 from mailman.app.lifecycle import create_list, remove_list
 from mailman.core.constants import system_preferences
 from mailman.core.i18n import _

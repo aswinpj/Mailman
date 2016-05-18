@@ -19,7 +19,6 @@
 
 import uuid
 
-from mailman import public
 from sqlalchemy import Integer
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.types import CHAR, TypeDecorator

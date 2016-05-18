@@ -18,7 +18,6 @@
 """Alembic configuration initization."""
 
 from alembic.config import Config
-from mailman import public
 from mailman.utilities.modules import expand_path
 
 

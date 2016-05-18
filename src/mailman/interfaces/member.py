@@ -18,7 +18,6 @@
 """Interface describing the basics of a member."""
 
 from enum import Enum
-from mailman import public
 from mailman.interfaces.errors import MailmanError
 from zope.interface import Attribute, Interface
 

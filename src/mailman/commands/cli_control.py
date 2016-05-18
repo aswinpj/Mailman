@@ -23,7 +23,6 @@ import errno
 import signal
 import logging
 
-from mailman import public
 from mailman.bin.master import WatcherState, master_state
 from mailman.config import config
 from mailman.core.i18n import _

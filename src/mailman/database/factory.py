@@ -24,7 +24,6 @@ import alembic.command
 from alembic.migration import MigrationContext
 from alembic.script import ScriptDirectory
 from flufl.lock import Lock
-from mailman import public
 from mailman.config import config
 from mailman.database.alembic import alembic_cfg
 from mailman.database.model import Model

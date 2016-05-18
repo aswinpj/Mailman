@@ -20,7 +20,6 @@
 import sys
 
 from lazr.config import as_boolean
-from mailman import public
 from mailman.config import config
 from mailman.core.api import API30, API31
 from mailman.core.i18n import _

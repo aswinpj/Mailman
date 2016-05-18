@@ -20,7 +20,6 @@
 import logging
 
 from email.utils import formataddr
-from mailman import public
 from mailman.core.i18n import _
 from mailman.handlers.cook_headers import uheader
 from mailman.interfaces.handler import IHandler

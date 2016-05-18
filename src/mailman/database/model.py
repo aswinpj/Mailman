@@ -18,7 +18,6 @@
 """Base class for all database classes."""
 
 from contextlib import closing
-from mailman import public
 from mailman.config import config
 from sqlalchemy.ext.declarative import declarative_base
 

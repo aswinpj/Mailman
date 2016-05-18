@@ -19,7 +19,6 @@
 
 import os
 
-from mailman import public
 from mailman.config import config
 from mailman.email.message import Message
 from mailman.interfaces.digests import DigestFrequency

@@ -17,7 +17,6 @@
 
 """Model for members."""
 
-from mailman import public
 from mailman.core.constants import system_preferences
 from mailman.database.model import Model
 from mailman.database.transaction import dbconnection

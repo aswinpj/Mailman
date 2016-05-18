@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.config import config
 from mailman.core.i18n import _
 from mailman.interfaces.handler import IHandler

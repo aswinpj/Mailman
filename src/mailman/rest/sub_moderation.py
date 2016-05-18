@@ -17,7 +17,6 @@
 
 """REST API for held subscription requests."""
 
-from mailman import public
 from mailman.app.moderator import send_rejection
 from mailman.interfaces.action import Action
 from mailman.interfaces.member import AlreadySubscribedError

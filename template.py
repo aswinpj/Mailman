@@ -17,4 +17,3 @@
 
 """Module stuff."""
 
-from mailman import public

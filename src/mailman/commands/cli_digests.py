@@ -19,7 +19,6 @@
 
 import sys
 
-from mailman import public
 from mailman.app.digests import (
     bump_digest_number_and_volume, maybe_send_digest_now)
 from mailman.core.i18n import _

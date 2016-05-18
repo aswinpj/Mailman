@@ -24,7 +24,6 @@
 # for us is that it does no 'From' mangling.
 # mangling.
 from mailbox import MMDF
-from mailman import public
 
 
 @public

@@ -19,7 +19,6 @@
 
 import re
 
-from mailman import public
 from mailman.core.i18n import _
 from mailman.interfaces.action import Action
 from mailman.interfaces.bans import IBanManager

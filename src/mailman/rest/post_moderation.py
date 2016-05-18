@@ -17,7 +17,6 @@
 
 """REST API for held message moderation."""
 
-from mailman import public
 from mailman.app.moderator import handle_message
 from mailman.interfaces.action import Action
 from mailman.interfaces.messages import IMessageStore

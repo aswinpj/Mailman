@@ -20,7 +20,6 @@
 This only happens if the sender has set their AcknowledgePosts attribute.
 """
 
-from mailman import public
 from mailman.core.i18n import _
 from mailman.email.message import UserNotification
 from mailman.interfaces.handler import IHandler

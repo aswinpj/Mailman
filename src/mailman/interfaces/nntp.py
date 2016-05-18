@@ -18,7 +18,6 @@
 """NNTP and newsgroup interfaces."""
 
 from enum import Enum
-from mailman import public
 
 
 @public

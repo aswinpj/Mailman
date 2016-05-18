@@ -17,7 +17,6 @@
 
 """<api>/queues."""
 
-from mailman import public
 from mailman.app.inject import inject_text
 from mailman.config import config
 from mailman.interfaces.listmanager import IListManager

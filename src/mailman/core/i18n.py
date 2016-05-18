@@ -20,7 +20,6 @@
 import mailman.messages
 
 from flufl.i18n import PackageStrategy, registry
-from mailman import public
 from mailman.interfaces.configuration import ConfigurationUpdatedEvent
 
 

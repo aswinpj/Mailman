@@ -17,7 +17,6 @@
 
 """Subscription services."""
 
-from mailman import public
 from mailman.app.membership import delete_member
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.listmanager import IListManager, NoSuchListError

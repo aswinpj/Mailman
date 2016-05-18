@@ -22,7 +22,6 @@ the ones that fit a particular role.  These are used as the member, owner,
 moderator, and administrator roster filters.
 """
 
-from mailman import public
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.member import DeliveryMode, MemberRole
 from mailman.interfaces.roster import IRoster

@@ -17,7 +17,6 @@
 
 """Mailman configuration package."""
 
-from mailman import public
 from mailman.config.config import Configuration
 
 

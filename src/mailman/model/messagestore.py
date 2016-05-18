@@ -21,7 +21,6 @@ import os
 import errno
 import pickle
 
-from mailman import public
 from mailman.config import config
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.messages import IMessageStore

@@ -19,7 +19,6 @@
 
 import logging
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.database import IDatabase
 from mailman.utilities.string import expand

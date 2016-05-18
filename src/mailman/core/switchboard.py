@@ -31,7 +31,6 @@ import pickle
 import hashlib
 import logging
 
-from mailman import public
 from mailman.config import config
 from mailman.email.message import Message
 from mailman.interfaces.configuration import ConfigurationUpdatedEvent

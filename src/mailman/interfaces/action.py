@@ -18,7 +18,6 @@
 """Message actions."""
 
 from enum import Enum
-from mailman import public
 
 
 @public

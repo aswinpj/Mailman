@@ -17,7 +17,6 @@
 
 """Application of list styles to new and existing lists."""
 
-from mailman import public
 from mailman.interfaces.styles import IStyle
 from mailman.styles.base import (
     Announcement, BasicOperation, Bounces, Discussion, Identity, Moderation,

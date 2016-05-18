@@ -17,7 +17,6 @@
 
 """Manager of email address bans."""
 
-from mailman import public
 from zope.interface import Attribute, Interface
 
 

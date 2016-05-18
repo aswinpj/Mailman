@@ -17,7 +17,6 @@
 
 """Template downloader with cache."""
 
-from mailman import public
 from zope.interface import Interface
 
 

@@ -17,7 +17,6 @@
 
 """Individualized delivery with header/footer decorations."""
 
-from mailman import public
 from mailman.config import config
 from mailman.mta.verp import VERPDelivery
 

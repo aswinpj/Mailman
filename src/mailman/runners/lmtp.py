@@ -40,7 +40,6 @@ import logging
 import asyncore
 
 from email.utils import parseaddr
-from mailman import public
 from mailman.config import config
 from mailman.core.runner import Runner
 from mailman.database.transaction import transactional

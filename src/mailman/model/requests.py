@@ -18,7 +18,6 @@
 """Implementations of the pending requests interfaces."""
 
 from datetime import timedelta
-from mailman import public
 from mailman.database.model import Model
 from mailman.database.transaction import dbconnection
 from mailman.database.types import Enum

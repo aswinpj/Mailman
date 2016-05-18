@@ -32,7 +32,6 @@ import datetime
 import tempfile
 
 from lazr.config import as_boolean
-from mailman import public
 from mailman.config import config
 from mailman.core import initialize
 from mailman.core.initialize import INHIBIT_CONFIG_FILE

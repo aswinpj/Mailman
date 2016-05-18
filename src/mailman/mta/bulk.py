@@ -17,7 +17,6 @@
 
 """Bulk message delivery."""
 
-from mailman import public
 from mailman.mta.base import BaseDelivery
 
 

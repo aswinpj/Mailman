@@ -24,7 +24,7 @@ import mailman.templates
 from configparser import ConfigParser
 from flufl.lock import Lock
 from lazr.config import ConfigSchema, as_boolean
-from mailman import public, version
+from mailman import version
 from mailman.interfaces.configuration import (
     ConfigurationUpdatedEvent, IConfiguration, MissingConfigurationFileError)
 from mailman.interfaces.languages import ILanguageManager

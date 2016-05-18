@@ -19,7 +19,6 @@
 
 import re
 
-from mailman import public
 from mailman.database.model import Model
 from mailman.database.transaction import dbconnection
 from mailman.interfaces.bans import IBan, IBanManager

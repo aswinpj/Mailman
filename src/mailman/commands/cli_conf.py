@@ -21,7 +21,6 @@ import sys
 
 from contextlib import closing
 from lazr.config._config import Section
-from mailman import public
 from mailman.config import config
 from mailman.core.i18n import _
 from mailman.interfaces.command import ICLISubCommand

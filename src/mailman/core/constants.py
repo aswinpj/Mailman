@@ -17,7 +17,6 @@
 
 """Various constants and enumerations."""
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.languages import ILanguageManager
 from mailman.interfaces.member import DeliveryMode, DeliveryStatus

@@ -20,7 +20,6 @@
 import logging
 
 from flufl.bounce import all_failures, scan_message
-from mailman import public
 from mailman.app.bounces import ProbeVERP, StandardVERP, maybe_forward
 from mailman.core.runner import Runner
 from mailman.interfaces.bounce import BounceContext, IBounceProcessor

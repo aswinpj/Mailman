@@ -19,7 +19,6 @@
 
 import os
 
-from mailman import public
 from mailman.database.base import SABaseDatabase
 from urllib.parse import urlparse
 

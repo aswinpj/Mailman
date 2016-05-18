@@ -19,8 +19,6 @@
 
 import sqlalchemy as sa
 
-from mailman import public
-
 
 @public
 def is_sqlite(bind):

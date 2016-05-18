@@ -21,7 +21,6 @@ import time
 import logging
 
 from email.utils import formatdate, getaddresses, make_msgid
-from mailman import public
 from mailman.app.membership import delete_member
 from mailman.config import config
 from mailman.core.i18n import _

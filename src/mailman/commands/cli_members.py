@@ -21,7 +21,6 @@ import sys
 
 from contextlib import ExitStack
 from email.utils import formataddr, parseaddr
-from mailman import public
 from mailman.app.membership import add_member
 from mailman.core.i18n import _
 from mailman.database.transaction import transactional

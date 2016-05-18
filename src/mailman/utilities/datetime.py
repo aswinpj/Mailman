@@ -24,7 +24,6 @@ instrumented for testing purposes.
 
 import datetime
 
-from mailman import public
 from mailman.testing import layers
 
 

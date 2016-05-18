@@ -17,7 +17,6 @@
 
 """REST for members."""
 
-from mailman import public
 from mailman.app.membership import add_member, delete_member
 from mailman.interfaces.action import Action
 from mailman.interfaces.address import IAddress

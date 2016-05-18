@@ -22,7 +22,6 @@ import socket
 import logging
 import smtplib
 
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.mta import IMailTransportAgentDelivery
 from mailman.mta.connection import Connection

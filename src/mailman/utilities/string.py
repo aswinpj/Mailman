@@ -21,7 +21,6 @@ import logging
 
 from email.errors import HeaderParseError
 from email.header import decode_header, make_header
-from mailman import public
 from string import Template, whitespace
 from textwrap import TextWrapper, dedent
 

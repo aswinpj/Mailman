@@ -17,7 +17,6 @@
 
 """Interface describing the basics of a user."""
 
-from mailman import public
 from mailman.interfaces.address import AddressError
 from zope.interface import Attribute, Interface
 

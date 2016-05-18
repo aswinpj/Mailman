@@ -18,7 +18,6 @@
 """REST for users."""
 
 from lazr.config import as_boolean
-from mailman import public
 from mailman.config import config
 from mailman.interfaces.address import ExistingAddressError
 from mailman.interfaces.usermanager import IUserManager

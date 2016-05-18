@@ -18,7 +18,6 @@
 """Model for addresses."""
 
 from email.utils import formataddr
-from mailman import public
 from mailman.database.model import Model
 from mailman.interfaces.address import (
     AddressVerificationEvent, IAddress, IEmailValidator)
